@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html><!--DOCTYPE indique le type de document-->
+<html lang="fr"><!--permet de definir la langue de l'element-->
+    <head><!--Cette balise va contenir des informations sur la page-->
+        <title>Gateau au chocolat</title><!--C’est le titre que l’on retrouve dans 
+            l’onglet du navigateur-->
+        <meta charset="UTF-8"><!--c'est l'encodage-->
+        <link rel="stylesheet" href="recette1.css"/>
+
+    
+    </head>
+    <!--<body> La balise body va contenir tout le corps de la page,
+        il ne peut y avoir qu'une seule balise body par page HTML-->
+    <body><!--Encadre le corps d'un fichier HTML.-->
+        
+    <div class="contenu">
+        <div class="centre categorie">
+            <p class="categorie">Recette</p>
+        </div>
+        <h1>Gateau au chocolat de maman</h1>
+        <div class="separateur"></div>
+        <div class="centre">
+            <p class="description">"Cette recette facile du gateau au chocolat est un grand classique qui fera plaisir à vos enfants."</p>
+        </div><!--fin de la div class centre-->
+        <div class="info">
+            <img class="centre info"  src="https://jonathanroux.com/gateau.jpg?id=9999">
+            <!--Table =Tableau-->
+                <table class="info" >
+                    <!--tr=Nouvelle ligne d'un tableau 
+                    (encadré par la balise <table>).-->
+                    <tr>
+                        <!--th=Cellule d'en-tête d'un tableau-->
+                        <th>Difficulté</th>
+                        <th>Préparation</th>
+                        <th>Cuisson</th>
+                        <th>Temps total</th>
+                    </tr>
+                    <tr>
+                        <!--td=Nouvelle cellule dans un tableau 
+                        (encadré par la balise <tr>).-->
+                        <td>facile</td>
+                        <td>10 min</td>
+                        <td>25 min</td>
+                        <td>35 min</td>
+                    </tr>
+                </table>
+        </div><!--fin de la div class info-->
+    <div class="colonne1 colonne">
+        <h2>Ingrédients</h2>
+        <div class="ingredients"><!--unordored list,liste non ordonnee-->
+            <p>Chocolat noir: 200g</p><!--element de liste-->
+            <p>Beurre: 200g</p>
+            <p>Sucre: 150g</p>
+            <p>Farine: 80g</p>
+        </div>
+        
+    </div>
+    <div class="colonne2 colonne">
+        <h2>Préparation</h2>
+        <table class="preparation">
+            <tr><td><p class="numero">1.</p></td><td class="preparation_etape">Faire fondre le chocolat avec le beurre</td></tr>
+            <tr><td><p class="numero">2.</p></td><td class="preparation_etape">Mélanger le sucre, les oeufs et la farine</td></tr>
+            <tr><td><p class="numero">3.</p></td><td class="preparation_etape">Mélanger le tout pour faire une pate</td></tr>
+            <tr><td><p class="numero">4.</p></td><td class="preparation_etape">Mettre au four.</td></tr>
+        </table>
+    </div>
+    </div><!--Implémente une feuille de style par bloc entier.-->
+    </body>
+</html>
